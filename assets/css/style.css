@@ -1,0 +1,14 @@
+.price-animation {
+    animation: price-update 0.5s ease-in-out;
+}
+
+@keyframes price-update {
+    from {
+        color: #28a745;
+        transform: scale(1.2);
+    }
+    to {
+        color: #000;
+        transform: scale(1);
+    }
+}
